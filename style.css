@@ -73,14 +73,15 @@ body {
     background-color: #FFF;
     padding: 11px 20px;
     
-}
+} 
 
 .studio1 {
-    max-width: 1440px; 
     min-height: 700px; 
     margin: auto;
     background-repeat: no-repeat;
     background-position: center;
+    background-image: url(img/first_block_img/IMAGE\ \(6\).svg);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -243,10 +244,11 @@ body {
 }
   
 
-.studio3 {
-    max-width: 1440px;  
+.studio3 { 
     min-height: 600px; 
     margin: auto;
+    background-size: cover;
+    background-image: url(img/third_block_img/IMAGE.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: grid;
@@ -295,6 +297,7 @@ body {
 
 
 .block4 {
+    margin: auto;
   display: flex;
   background-color: #000;
   color: #fff;
@@ -310,6 +313,7 @@ body {
   padding-right: 40px;
   padding-left: 8%;
   position: relative;
+  margin: auto;
 }
 
 .block4_text h1 {
@@ -365,6 +369,7 @@ body {
   width: 720px;
   height: 540px;
   position: relative;
+  margin: auto;
 }
 
 .block4_stat {
@@ -384,15 +389,14 @@ body {
     left: 3px;
 }
 
-.block5{
-    max-width: 1440px;  
+.block5{  
     min-height: 600px; 
 
     margin: auto;
     background-image: url(img/fifth_block_img/IMAGEfey.svg);
     background-repeat: no-repeat;
     background-position: center;
-    
+    background-size: cover;
     display: grid;
 }
 
@@ -478,19 +482,20 @@ body {
 
 
 .block7{
-    max-width: 1440px;  
     min-height: 600px; 
 
     margin: auto;
     background-image: url(img/seventh_block_img/IMAGEimaj\ nej.svg);
     background-repeat: no-repeat;
     background-position: center;
-    
+    background-size: cover;
     display: grid;
 }
 .block8{
+    margin: auto;
    max-width: 1440px;  
-    min-height: 414px;text-align: center;
+    min-height: 414px;
+    text-align: center;
     background-repeat: no-repeat;
     background-position: center;
     display: grid;
@@ -662,6 +667,7 @@ body {
 .arrow-icon {
   height: 50px;
   width: 70px;
+  cursor: pointer;
 }
 
 .footer-bottom {
